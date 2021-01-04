@@ -62,7 +62,7 @@ $(function () {
           return layer.msg('登陆失败')
         }
         layer.msg('登陆成功');
-        localStorage.setItem('token', 'res.token')
+        localStorage.setItem('token', res.token)
         location.href = '/index.html'
       }
     })
